@@ -1,0 +1,188 @@
+* {box-sizing: border-box;
+  margin: 0}
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 200vh;
+    font-family: 'Original Surfer', cursive;
+    overflow-x: hidden;
+}
+  
+  
+  .travel-icons img{
+    margin: 2%;
+    width: 300px;
+    height: 200px;
+       margin: 4%; 
+  }
+
+ 
+
+    
+ .travel-icons h1 {font-family: 'Original Surfer', cursive; font-size: 40px;}
+  
+  
+  .nav-explore {
+    display: flex;
+    background-color: orange;
+    justify-content: space-between;
+  
+  }
+  
+  
+  .vacation-info {
+    height: 70%;
+    background-color: white;
+    /* grid-gap: 10%; */
+    display: flex;
+    align-items: center;
+  }
+  
+  .flag-container {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.0);
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 5%;
+    row-gap: 5%;
+    justify-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .flag-section {
+    /* background-color: orange; */
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    font-size: 150%;
+  }
+
+  .flag-section img {width: 89%; }
+  
+   .red {
+    background-color: rgba(196, 36, 36, 0.671);
+  }
+  
+  .blue {
+    background-color: rgba(61, 61, 194, 0.671);
+  }
+  
+  section {
+    width: 100%;
+    height: 15%;
+    /* background-color: aqua; */
+    margin-bottom: 2%;;
+  }
+
+.container {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.0);
+  display: grid;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  padding: 1%;
+  row-gap: 5%;
+  justify-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+  #customers {
+    font-family: 'Original Surfer', cursive; 
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    border-radius: 30px;
+  }
+  
+  #customers td, #customers th {
+    padding: 8px;
+  }
+  
+
+  #customers tr {
+    background-color: rgba(61, 61, 194, 0.671)
+  }
+
+
+  #customers tr:nth-child(even){background-color: rgba(196, 36, 36, 0.671);}
+  
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.384);
+    color: white;}
+  
+    .contact-container img{
+      width: 50px;
+      height: 50px;;
+    }
+  
+  
+  footer ul {
+    list-style-type: none;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #000;
+  }
+  
+  
+  footer li {
+    float: left;
+  }
+  
+  footer  li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  footer li a:hover {
+    background-color: orange;
+  }
+  
+  
+  
+  .navbar {
+    width: 100%;
+    background-color: #000;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; /* Four links of equal widths */
+    text-align: center;
+  }
+  
+  .navbar a:hover {
+    background-color: orange;
+  }
+  
+  footer {
+    width: 100%;
+    background-color: #000;
+    overflow: auto;
+    color: #fff;
+    text-align: center;
+  }
+  
+  
+  
+  
+  button {background-color: orange; color: white; border-radius: 30%; height: 60px; border: none; margin: 15%}
