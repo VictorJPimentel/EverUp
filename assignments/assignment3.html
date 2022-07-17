@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+* {box-sizing: border-box;
+  margin: 0}
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 200vh;
+    font-family: 'Original Surfer', cursive;
+    overflow-x: hidden;
+}
+  
+  
+  body {
+ background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/12/City-At-Night-Background-Widescreen.jpg");
+ background-color: #cccccc;
+}
+
+
+#div1 {
+  height: 100vh;
+  width: 100vw;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  left: 100px;
+  
+}
+
+#div2 {
+  position: relative;
+  transform-origin: 1px 50px;
+  transform-style: preserve-3D;        
+  width: 200px;
+   animation: hoursMotion 10s;
+    right: -200px;
+        transform:  rotate(-90deg);
+}
+
+#div {
+  position: absolute;
+  border: 1px solid black;
+  width: 500px;
+  background-color: lightblue;
+  border-radius: 100%
+}
+
+
+
+
+#div3 {
+
+  position: relative;
+  transform-origin: 1px 50px;
+  transform-style: preserve-3D;        
+  width: 200px;
+   animation: minutesMotion 10s;
+}
+
+#div4 {
+  position: absolute;
+background: black;
+width: 50px;
+height: 50px;
+border-radius: 100%
+
+
+}
+
+
+
+@keyframes hoursMotion {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(30deg);
+  }
+};
+
+
+@keyframes minutesMotion {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+};
+
+
+
+
+
+</style>
+</head>
+<body>
+
+
+<div id="div1">
+    
+    
+    <div id="div4"></div>
+    
+    <img id="div" src="https://e.edim.co/205361572/S5dJpnWZvPHU3u1q.png?response-content-disposition=filename%3D%22clockimage.png%22%3B%20filename%2A%3DUTF-8%27%27clockimage.png&Expires=1657835097&Signature=XMLNfmDngz~pCrgestSilheKHTZwKZJU4KqQz8iQ4oqG4SgIevUZBCN4NOv0tsO7v7E~VXBP93LDniVqUzuVV4pliiNa3JPCeqawqqHFc7LdmimssdBy~G~uAQMaN1bGW1tSw05WOddy69O9P4CAuK1eukX2OkXhFt~bYB7~f8SeoLrddmDGbBZWU2ZlREnYrO43tyUIoIuoESW1qvVW9T0sq3UBoQ4T-G9K5IqPhpqCbq8diM6OyNm~yr01PQbufvoku3sBJZn6zuKmC0c2~anjo-g5fUTNCaxK-YZORNA9riQHcN1KeJum~7yfClGDVX2pbJ~rB4EN00lgoQchXQ__&Key-Pair-Id=APKAJMSU6JYPN6FG5PBQ">
+ 
+ 
+ <img id="div2" src="https://e.edim.co/205361572/ZKFNQl68AKFcIkyk.png?response-content-disposition=filename%3D%22hand.png%22%3B%20filename%2A%3DUTF-8%27%27hand.png&Expires=1657834530&Signature=tcgT4DvuhSetmBY0U-~WTzZXWPUjoBNAIcw3INU08xsqJFz2Rg8nViy0PCNMOyUlXy53ISJd7EHkWyswg9~kVq3gM3dg0du0-lQTEe93WCE-bx4QEubKpApNFmFfWntLs~sA0GP6yHz~ht788jmA5wAzII-2w6DswhqZoHgTfTL7GaNchRpV9ZUDR69JzWKLL-BeWOFR1dBibPbh3FHXbnvsv-j7SqqUivZc6PPJBjHDbG7MhBSRow97ALjkvoFVKKI1R5jL9pg7mdrAcAxIMld84YHIpfNmKLoY6qq8ayrlmZupJVvkNjyJgqZWqfSnQF7YHZqA39lwImJpZcqV2Q__&Key-Pair-Id=APKAJMSU6JYPN6FG5PBQ">
+ 
+  <img id="div3" src="https://e.edim.co/205361572/ZKFNQl68AKFcIkyk.png?response-content-disposition=filename%3D%22hand.png%22%3B%20filename%2A%3DUTF-8%27%27hand.png&Expires=1657834530&Signature=tcgT4DvuhSetmBY0U-~WTzZXWPUjoBNAIcw3INU08xsqJFz2Rg8nViy0PCNMOyUlXy53ISJd7EHkWyswg9~kVq3gM3dg0du0-lQTEe93WCE-bx4QEubKpApNFmFfWntLs~sA0GP6yHz~ht788jmA5wAzII-2w6DswhqZoHgTfTL7GaNchRpV9ZUDR69JzWKLL-BeWOFR1dBibPbh3FHXbnvsv-j7SqqUivZc6PPJBjHDbG7MhBSRow97ALjkvoFVKKI1R5jL9pg7mdrAcAxIMld84YHIpfNmKLoY6qq8ayrlmZupJVvkNjyJgqZWqfSnQF7YHZqA39lwImJpZcqV2Q__&Key-Pair-Id=APKAJMSU6JYPN6FG5PBQ">
+
+</div>
+</body>
+</html>
