@@ -28,6 +28,6 @@
 --Part C-1
 	SELECT movie_name, movie_lang from movies WHERE movie_lang IN('English' , 'Spanish', 'Korean')s
 --Part C-2
-	SELECT first_name, last_name from actors WHERE last-name like 'M%' and dateof_birth '1940-01-01' and date_of_birth < '1969-12-31'
+	SELECT first_name, last_name from actors WHERE last_name like 'M%' and dateof_birth '1940-01-01' and date_of_birth < '1969-12-31'
 --Part C-3
-	SELECT first_name, last_name from directorss WHERE nationality IN('British', 'French', 'German') and date_of_birth > '1950-01-01 and date_of_birth < '1980-12-31';
+	SELECT first_name, last_name from directorss WHERE nationality IN('British', 'French', 'German') and date_of_birth > '1950-01-01' and date_of_birth < '1980-12-31';
